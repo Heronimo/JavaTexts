@@ -5,8 +5,6 @@ public class ClaseTexto {
 		String varString;
 		int counterV = 0;
 		int counterC = 0; 
-		char[] Vocales; 
-		char[] Consonantes;
 		Scanner TextoDeEntrada = new Scanner(System.in);
 		System.out.println("Introduzca el texto que quiere analizar");	
 		varString = TextoDeEntrada.nextLine();
